@@ -1,0 +1,15 @@
+ DOM Selectors
+
+هي طرق في JavaScript بتُستخدم للوصول إلى عناصر HTML وتحديدها، بهدف تعديل محتواها أو خصائصها أو التعامل معها.
+
+ NodeList vs HTMLCollection
+
+الاتنين عبارة عن Collections بتحتوي على مجموعة من عناصر الـ DOM.
+
+ NodeList: ممكن تحتوي على أنواع مختلفة من Nodes، وممكن تكون Static أو Live.
+ HTMLCollection: بتحتوي على HTML Elements فقط، وبتكون Live.
+ NodeList تدعم forEach()، بينما HTMLCollection لا تدعمها مباشرة.
+
+  removeAttribute
+
+هي Method في JavaScript تُستخدم لحذف Attribute معين من عنصر HTML، مما يؤدي إلى إزالة الخاصية المرتبطة به من العنصر.
